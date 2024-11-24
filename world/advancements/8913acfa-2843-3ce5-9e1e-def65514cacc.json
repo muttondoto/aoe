@@ -4158,6 +4158,7 @@
       "fletcher": "2024-11-21 18:56:13 -0600",
       "woodworker": "2024-11-23 01:44:00 -0600",
       "librarian": "2024-11-21 19:05:01 -0600",
+      "miner": "2024-11-23 21:38:03 -0600",
       "hunter": "2024-11-23 01:45:34 -0600"
     },
     "done": false
@@ -5183,21 +5184,141 @@
     },
     "done": true
   },
-  "minecraft:nether/brew_potion": {
-    "criteria": {
-      "potion": "2024-11-23 03:20:54 -0600"
-    },
-    "done": true
-  },
   "assortedtools:recipes/combat/ultimate_fist": {
     "criteria": {
       "has_fragment": "2024-11-23 03:20:23 -0600"
     },
     "done": true
   },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2024-11-23 03:20:54 -0600"
+    },
+    "done": true
+  },
   "minecraft:end/elytra": {
     "criteria": {
       "elytra": "2024-11-23 03:23:21 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/big_mac": {
+    "criteria": {
+      "has_bread": "2024-11-23 21:23:17 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/filet_o_fish": {
+    "criteria": {
+      "has_bread": "2024-11-23 21:23:17 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-11-23 21:35:42 -0600"
+    },
+    "done": true
+  },
+  "morevillagers:recipes/purpur_altar": {
+    "criteria": {
+      "has_end_stone": "2024-11-23 21:35:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2024-11-23 21:35:42 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/hamburger": {
+    "criteria": {
+      "has_bread": "2024-11-23 21:23:17 -0600"
+    },
+    "done": true
+  },
+  "pint_decorations:allrecette": {
+    "criteria": {
+      "allrecette": "2024-11-23 21:23:17 -0600"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/enderiophage_rocket": {
+    "criteria": {
+      "enderiophage_rocket": "2024-11-23 21:35:51 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:bettermcdonaldsmod/root": {
+    "criteria": {
+      "tick": "2024-11-23 21:23:17 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/chickenburger": {
+    "criteria": {
+      "has_bread": "2024-11-23 21:23:17 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/ornate_iron_window": {
+    "criteria": {
+      "has_ingredient": "2024-11-23 21:34:27 -0600"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/capsid": {
+    "criteria": {
+      "capsid": "2024-11-23 21:34:15 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/cheeseburger": {
+    "criteria": {
+      "has_bread": "2024-11-23 21:23:17 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/mcchicken": {
+    "criteria": {
+      "has_bread": "2024-11-23 21:23:17 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-11-23 21:35:42 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/mcbacon": {
+    "criteria": {
+      "has_bread": "2024-11-23 21:23:17 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/combat/knife": {
+    "criteria": {
+      "has_iron_ingot": "2024-11-23 21:34:25 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-11-23 21:35:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-11-23 21:35:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2024-11-23 21:34:27 -0600"
     },
     "done": true
   },

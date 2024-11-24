@@ -19,6 +19,7 @@
       "minecraft:birch_forest": "2024-11-18 13:36:03 -0600",
       "minecraft:beach": "2024-11-18 14:13:06 -0600",
       "minecraft:dark_forest": "2024-11-18 13:19:22 -0600",
+      "minecraft:sparse_jungle": "2024-11-23 21:42:24 -0600",
       "minecraft:river": "2024-11-18 13:39:07 -0600",
       "minecraft:lukewarm_ocean": "2024-11-22 14:46:32 -0600",
       "minecraft:stony_shore": "2024-11-18 14:40:49 -0600",
@@ -28,6 +29,7 @@
       "minecraft:cold_ocean": "2024-11-18 14:16:00 -0600",
       "minecraft:forest": "2024-11-18 13:38:50 -0600",
       "minecraft:ocean": "2024-11-18 14:16:05 -0600",
+      "minecraft:jungle": "2024-11-23 21:42:34 -0600",
       "minecraft:old_growth_spruce_taiga": "2024-11-18 15:10:56 -0600",
       "minecraft:flower_forest": "2024-11-18 16:06:02 -0600",
       "minecraft:frozen_peaks": "2024-11-18 15:07:01 -0600",
@@ -390,7 +392,9 @@
       "minecraft:vindicator": "2024-11-19 20:09:36 -0600",
       "minecraft:magma_cube": "2024-11-20 16:49:33 -0600",
       "minecraft:spider": "2024-11-18 14:48:01 -0600",
+      "minecraft:piglin_brute": "2024-11-23 18:25:36 -0600",
       "minecraft:creeper": "2024-11-18 14:48:15 -0600",
+      "minecraft:wither": "2024-11-23 21:52:02 -0600",
       "minecraft:zombified_piglin": "2024-11-21 23:46:15 -0600",
       "minecraft:witch": "2024-11-21 23:59:47 -0600",
       "minecraft:wither_skeleton": "2024-11-19 18:07:16 -0600",
@@ -595,6 +599,7 @@
       "bread": "2024-11-18 17:23:08 -0600",
       "golden_apple": "2024-11-23 03:07:50 -0600",
       "rotten_flesh": "2024-11-18 13:33:00 -0600",
+      "cooked_chicken": "2024-11-23 20:43:14 -0600",
       "carrot": "2024-11-21 04:51:45 -0600"
     },
     "done": false
@@ -5382,6 +5387,7 @@
   },
   "morevillagers:all_workstations_get": {
     "criteria": {
+      "barrel": "2024-11-23 18:01:44 -0600",
       "fletchingtable": "2024-11-20 22:53:57 -0600",
       "brewingstand": "2024-11-20 22:52:27 -0600",
       "grindstone": "2024-11-20 23:25:05 -0600",
@@ -6632,57 +6638,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_brick_stonecutting": {
-    "criteria": {
-      "has_end_stone_brick": "2024-11-23 02:53:46 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_brick_slab": {
-    "criteria": {
-      "has_end_stone_bricks": "2024-11-23 02:53:46 -0600"
-    },
-    "done": true
-  },
-  "minecraft:end/kill_dragon": {
-    "criteria": {
-      "killed_dragon": "2024-11-23 02:00:04 -0600"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/cosmic_cod": {
-    "criteria": {
-      "capsid": "2024-11-23 01:59:12 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/quartz_slab": {
     "criteria": {
       "has_quartz_block": "2024-11-23 01:31:29 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/netherite_chestplate_smithing": {
-    "criteria": {
-      "has_netherite_ingot": "2024-11-23 01:40:49 -0600"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/enderiophage": {
-    "criteria": {
-      "killed_by": "2024-11-23 02:03:58 -0600"
-    },
-    "done": true
-  },
-  "assortedtools:recipes/tools/netherite_hammer": {
-    "criteria": {
-      "has_item": "2024-11-23 01:40:49 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purpur_slab": {
-    "criteria": {
-      "has_purpur_block": "2024-11-23 02:22:59 -0600"
     },
     "done": true
   },
@@ -6692,81 +6650,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/netherite_sword_smithing": {
-    "criteria": {
-      "has_netherite_ingot": "2024-11-23 01:40:49 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
-    "criteria": {
-      "has_end_stone": "2024-11-23 02:40:00 -0600"
-    },
-    "done": true
-  },
-  "assortedtools:recipes/combat/ultimate_fist": {
-    "criteria": {
-      "has_fragment": "2024-11-23 02:25:11 -0600"
-    },
-    "done": true
-  },
-  "morevillagers:recipes/purpur_altar": {
-    "criteria": {
-      "has_end_stone": "2024-11-23 02:40:00 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/netherite_leggings_smithing": {
-    "criteria": {
-      "has_netherite_ingot": "2024-11-23 01:40:49 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_bricks": {
-    "criteria": {
-      "has_end_stone": "2024-11-23 02:40:00 -0600"
-    },
-    "done": true
-  },
-  "assortedtools:recipes/tools/netherite_bucket_smithing": {
-    "criteria": {
-      "has_netherite_ingot": "2024-11-23 01:40:49 -0600"
-    },
-    "done": true
-  },
-  "minecraft:story/shiny_gear": {
-    "criteria": {
-      "diamond_leggings": "2024-11-23 03:01:47 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/netherite_hoe_smithing": {
-    "criteria": {
-      "has_netherite_ingot": "2024-11-23 01:40:49 -0600"
-    },
-    "done": true
-  },
-  "minecraft:end/dragon_breath": {
-    "criteria": {
-      "dragon_breath": "2024-11-23 01:59:57 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/quartz_pillar_from_quartz_block_stonecutting": {
     "criteria": {
       "has_quartz_block": "2024-11-23 01:31:29 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/end_stone_brick_wall": {
-    "criteria": {
-      "has_end_stone_bricks": "2024-11-23 02:53:46 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_ingot": {
-    "criteria": {
-      "has_netherite_scrap": "2024-11-23 01:40:38 -0600"
     },
     "done": true
   },
@@ -6782,39 +6668,93 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2024-11-23 01:31:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz": {
+    "criteria": {
+      "has_quartz_block": "2024-11-23 01:31:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2024-11-23 01:31:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-11-23 01:31:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-11-23 01:31:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-11-23 01:31:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2024-11-23 01:40:38 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-11-23 01:40:49 -0600"
+    },
+    "done": true
+  },
+  "assortedtools:recipes/tools/netherite_hammer": {
+    "criteria": {
+      "has_item": "2024-11-23 01:40:49 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-11-23 01:40:49 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-11-23 01:40:49 -0600"
+    },
+    "done": true
+  },
+  "assortedtools:recipes/tools/netherite_bucket_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-11-23 01:40:49 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-11-23 01:40:49 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lodestone": {
     "criteria": {
       "has_netherite_ingot": "2024-11-23 01:40:49 -0600"
     },
     "done": true
   },
-  "alexsmobs:alexsmobs/enderiophage_rocket": {
-    "criteria": {
-      "enderiophage_rocket": "2024-11-23 02:43:40 -0600"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/ender_flu": {
-    "criteria": {
-      "all_effects": "2024-11-23 02:55:01 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purpur_pillar": {
-    "criteria": {
-      "has_purpur_block": "2024-11-23 02:22:59 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/netherite_helmet_smithing": {
     "criteria": {
       "has_netherite_ingot": "2024-11-23 01:40:49 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/popped_chorus_fruit": {
-    "criteria": {
-      "has_chorus_fruit": "2024-11-23 02:03:29 -0600"
     },
     "done": true
   },
@@ -6830,18 +6770,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/quartz_stairs": {
-    "criteria": {
-      "has_quartz_block": "2024-11-23 01:31:29 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_quartz": {
-    "criteria": {
-      "has_quartz_block": "2024-11-23 01:31:29 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/netherite_boots_smithing": {
     "criteria": {
       "has_netherite_ingot": "2024-11-23 01:40:49 -0600"
@@ -6851,24 +6779,6 @@
   "minecraft:recipes/tools/netherite_shovel_smithing": {
     "criteria": {
       "has_netherite_ingot": "2024-11-23 01:40:49 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
-    "criteria": {
-      "has_quartz_block": "2024-11-23 01:31:29 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
-    "criteria": {
-      "has_end_stone_brick": "2024-11-23 02:53:46 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
-    "criteria": {
-      "has_quartz_block": "2024-11-23 01:31:29 -0600"
     },
     "done": true
   },
@@ -6884,24 +6794,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/spire_armor_trim_smithing_template": {
-    "criteria": {
-      "has_spire_armor_trim_smithing_template": "2024-11-23 02:25:09 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_brick_stonecutting": {
-    "criteria": {
-      "has_end_stone_brick": "2024-11-23 02:53:46 -0600"
-    },
-    "done": true
-  },
-  "alexsmobs:alexsmobs/capsid": {
-    "criteria": {
-      "capsid": "2024-11-23 02:04:00 -0600"
-    },
-    "done": true
-  },
   "assortedtools:recipes/tools/netherite_multitool": {
     "criteria": {
       "has_item": "2024-11-23 01:40:49 -0600"
@@ -6914,45 +6806,9 @@
     },
     "done": true
   },
-  "minecraft:end/find_end_city": {
-    "criteria": {
-      "in_city": "2024-11-23 02:22:06 -0600"
-    },
-    "done": true
-  },
-  "minecraft:end/enter_end_gateway": {
-    "criteria": {
-      "entered_end_gateway": "2024-11-23 02:03:05 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
-    "criteria": {
-      "has_end_stone": "2024-11-23 02:40:00 -0600"
-    },
-    "done": true
-  },
   "assortedtools:recipes/tools/netherite_hammer_smithing": {
     "criteria": {
       "has_netherite_ingot": "2024-11-23 01:40:49 -0600"
-    },
-    "done": true
-  },
-  "minecraft:end/elytra": {
-    "criteria": {
-      "elytra": "2024-11-23 03:34:17 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purpur_stairs": {
-    "criteria": {
-      "has_purpur_block": "2024-11-23 02:22:59 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-11-23 02:22:59 -0600"
     },
     "done": true
   },
@@ -6962,21 +6818,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/spire_armor_trim_smithing_template_smithing_trim": {
+  "assortedtools:recipes/tools/netherite_shears_smithing": {
     "criteria": {
-      "has_smithing_trim_template": "2024-11-23 02:25:09 -0600"
+      "has_netherite_ingot": "2024-11-23 01:40:49 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/end_stone_brick_stairs": {
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
     "criteria": {
-      "has_end_stone_bricks": "2024-11-23 02:53:46 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
-    "criteria": {
-      "has_quartz_block": "2024-11-23 01:31:29 -0600"
+      "has_netherite_ingot": "2024-11-23 01:40:49 -0600"
     },
     "done": true
   },
@@ -6992,15 +6842,81 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
+  "minecraft:story/enter_the_end": {
     "criteria": {
-      "has_quartz_block": "2024-11-23 01:31:29 -0600"
+      "entered_end": "2024-11-23 01:56:47 -0600"
     },
     "done": true
   },
-  "assortedtools:recipes/tools/netherite_shears_smithing": {
+  "alexsmobs:alexsmobs/cosmic_cod": {
     "criteria": {
-      "has_netherite_ingot": "2024-11-23 01:40:49 -0600"
+      "capsid": "2024-11-23 01:59:12 -0600"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2024-11-23 01:59:57 -0600"
+    },
+    "done": true
+  },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "killed_dragon": "2024-11-23 02:00:04 -0600"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2024-11-23 02:03:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2024-11-23 02:03:29 -0600"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/enderiophage": {
+    "criteria": {
+      "killed_by": "2024-11-23 02:03:58 -0600"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/capsid": {
+    "criteria": {
+      "capsid": "2024-11-23 02:04:00 -0600"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2024-11-23 02:22:06 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab": {
+    "criteria": {
+      "has_purpur_block": "2024-11-23 02:22:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar": {
+    "criteria": {
+      "has_purpur_block": "2024-11-23 02:22:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs": {
+    "criteria": {
+      "has_purpur_block": "2024-11-23 02:22:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-11-23 02:22:59 -0600"
     },
     "done": true
   },
@@ -7010,9 +6926,57 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+  "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
     "criteria": {
-      "has_netherite_ingot": "2024-11-23 01:40:49 -0600"
+      "has_purpur_block": "2024-11-23 02:22:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2024-11-23 02:24:01 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template": {
+    "criteria": {
+      "has_spire_armor_trim_smithing_template": "2024-11-23 02:25:09 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-11-23 02:25:09 -0600"
+    },
+    "done": true
+  },
+  "assortedtools:recipes/combat/ultimate_fist": {
+    "criteria": {
+      "has_fragment": "2024-11-23 02:25:11 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-11-23 02:40:00 -0600"
+    },
+    "done": true
+  },
+  "morevillagers:recipes/purpur_altar": {
+    "criteria": {
+      "has_end_stone": "2024-11-23 02:40:00 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2024-11-23 02:40:00 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-11-23 02:40:00 -0600"
     },
     "done": true
   },
@@ -7028,21 +6992,364 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/shulker_box": {
+  "alexsmobs:alexsmobs/enderiophage_rocket": {
     "criteria": {
-      "has_shulker_shell": "2024-11-23 02:24:01 -0600"
+      "enderiophage_rocket": "2024-11-23 02:43:40 -0600"
     },
     "done": true
   },
-  "minecraft:story/enter_the_end": {
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_brick_stonecutting": {
     "criteria": {
-      "entered_end": "2024-11-23 01:56:47 -0600"
+      "has_end_stone_brick": "2024-11-23 02:53:46 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
+  "minecraft:recipes/building_blocks/end_stone_brick_slab": {
     "criteria": {
-      "has_purpur_block": "2024-11-23 02:22:59 -0600"
+      "has_end_stone_bricks": "2024-11-23 02:53:46 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-11-23 02:53:46 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2024-11-23 02:53:46 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2024-11-23 02:53:46 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-11-23 02:53:46 -0600"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/ender_flu": {
+    "criteria": {
+      "all_effects": "2024-11-23 02:55:01 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2024-11-23 03:01:47 -0600"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2024-11-23 03:34:17 -0600"
+    },
+    "done": true
+  },
+  "pint_decorations:allrecette": {
+    "criteria": {
+      "allrecette": "2024-11-23 14:36:45 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/fries": {
+    "criteria": {
+      "has_baked_potato": "2024-11-23 14:36:45 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:bettermcdonaldsmod/root": {
+    "criteria": {
+      "tick": "2024-11-23 14:36:45 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/combat/knife": {
+    "criteria": {
+      "has_iron_ingot": "2024-11-23 14:36:45 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/tortilla": {
+    "criteria": {
+      "has_egg": "2024-11-23 14:36:45 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/mayonnaise": {
+    "criteria": {
+      "has_egg": "2024-11-23 14:36:45 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/mcflurry": {
+    "criteria": {
+      "has_snowball": "2024-11-23 17:15:56 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2024-11-23 17:17:03 -0600"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_3": {
+    "criteria": {
+      "has_the_recipe": "2024-11-23 17:19:40 -0600"
+    },
+    "done": true
+  },
+  "morevillagers:recipes/oceanography_table": {
+    "criteria": {
+      "has_barrel": "2024-11-23 18:01:44 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2024-11-23 18:06:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2024-11-23 18:06:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2024-11-23 18:23:48 -0600"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2024-11-23 18:29:15 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2024-11-23 18:29:58 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/snout_armor_trim_smithing_template": {
+    "criteria": {
+      "has_snout_armor_trim_smithing_template": "2024-11-23 18:33:52 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/snout_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-11-23 18:33:52 -0600"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/crimson_mosquito_larva": {
+    "criteria": {
+      "rat_upgrade_basic": "2024-11-23 18:50:34 -0600"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/mysterious_worm": {
+    "criteria": {
+      "mysterious_worm": "2024-11-23 19:03:33 -0600"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/void_worm_summon": {
+    "criteria": {
+      "ex": "2024-11-23 19:08:24 -0600"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/void_worm_kill": {
+    "criteria": {
+      "ex": "2024-11-23 19:10:16 -0600"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/void_worm_split": {
+    "criteria": {
+      "ex": "2024-11-23 19:11:02 -0600"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/dimensional_carver": {
+    "criteria": {
+      "dimensional_carver": "2024-11-23 19:15:55 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-11-23 20:27:36 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/big_mac": {
+    "criteria": {
+      "has_bread": "2024-11-23 21:08:15 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/filet_o_fish": {
+    "criteria": {
+      "has_bread": "2024-11-23 21:08:15 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trim_with_all_exclusive_armor_patterns": {
+    "criteria": {
+      "armor_trimmed_minecraft:spire_armor_trim_smithing_template_smithing_trim": "2024-11-23 20:38:04 -0600",
+      "armor_trimmed_minecraft:snout_armor_trim_smithing_template_smithing_trim": "2024-11-23 20:18:54 -0600"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-11-23 20:27:36 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/combat/crafting/appliances/netherite_diving_helmet_from_netherite": {
+    "criteria": {
+      "has_item": "2024-11-23 20:16:58 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-11-23 20:27:36 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/hamburger": {
+    "criteria": {
+      "has_bread": "2024-11-23 21:08:15 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/snack_salad": {
+    "criteria": {
+      "has_carrot": "2024-11-23 21:09:42 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2024-11-23 22:10:03 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/combat/crafting/appliances/netherite_backtank_from_netherite": {
+    "criteria": {
+      "has_item": "2024-11-23 20:17:00 -0600"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trim_with_any_armor_pattern": {
+    "criteria": {
+      "armor_trimmed_minecraft:snout_armor_trim_smithing_template_smithing_trim": "2024-11-23 20:18:54 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-11-23 20:27:36 -0600"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2024-11-23 20:17:04 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/mcwrap": {
+    "criteria": {
+      "has_cooked_chicken": "2024-11-23 20:43:11 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/chicken_mcnuggets": {
+    "criteria": {
+      "has_cooked_chicken": "2024-11-23 20:43:11 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/chickenburger": {
+    "criteria": {
+      "has_cooked_chicken": "2024-11-23 20:43:11 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/combat/crafting/appliances/netherite_diving_boots_from_netherite": {
+    "criteria": {
+      "has_item": "2024-11-23 20:17:04 -0600"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2024-11-23 21:49:41 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/cheeseburger": {
+    "criteria": {
+      "has_bread": "2024-11-23 21:08:15 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/mcchicken": {
+    "criteria": {
+      "has_cooked_chicken": "2024-11-23 20:43:11 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-11-23 20:27:36 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/mcbacon": {
+    "criteria": {
+      "has_bread": "2024-11-23 21:08:15 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-11-23 20:27:36 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-11-23 20:27:36 -0600"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2024-11-23 21:50:45 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2024-11-23 21:49:41 -0600"
     },
     "done": true
   },
