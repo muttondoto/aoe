@@ -26,6 +26,7 @@
       "minecraft:dripstone_caves": "2024-11-23 20:35:41 -0600",
       "minecraft:forest": "2024-11-20 18:53:49 -0600",
       "minecraft:old_growth_birch_forest": "2024-11-20 18:09:33 -0600",
+      "minecraft:meadow": "2024-11-24 22:17:07 -0600",
       "minecraft:plains": "2024-11-20 18:39:04 -0600"
     },
     "done": false
@@ -618,6 +619,7 @@
     "criteria": {
       "minecraft:skeleton": "2024-11-20 21:09:50 -0600",
       "minecraft:spider": "2024-11-20 21:11:03 -0600",
+      "minecraft:creeper": "2024-11-24 21:54:50 -0600",
       "minecraft:zombie": "2024-11-20 19:14:10 -0600"
     },
     "done": false
@@ -2560,6 +2562,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2024-11-23 20:24:33 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2024-11-23 20:24:33 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2024-11-23 20:24:33 -0600"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/cut_tuff_from_stone_types_tuff_stonecutting": {
     "criteria": {
       "has_stone_types_tuff": "2024-11-23 20:26:31 -0600"
@@ -2578,39 +2598,9 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/polished_cut_andesite_stairs_from_stone_types_andesite_stonecutting": {
-    "criteria": {
-      "has_stone_types_andesite": "2024-11-23 20:32:00 -0600"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/polished_cut_tuff_from_stone_types_tuff_stonecutting": {
     "criteria": {
       "has_stone_types_tuff": "2024-11-23 20:26:31 -0600"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_andesite_slab_from_stone_types_andesite_stonecutting": {
-    "criteria": {
-      "has_stone_types_andesite": "2024-11-23 20:32:00 -0600"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/small_andesite_brick_slab_from_stone_types_andesite_stonecutting": {
-    "criteria": {
-      "has_stone_types_andesite": "2024-11-23 20:32:00 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/andesite_stairs": {
-    "criteria": {
-      "has_andesite": "2024-11-23 20:32:00 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
-    "criteria": {
-      "has_raw_gold": "2024-11-23 20:24:33 -0600"
     },
     "done": true
   },
@@ -2620,39 +2610,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
-    "criteria": {
-      "has_andesite": "2024-11-23 20:32:00 -0600"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/layered_tuff_from_stone_types_tuff_stonecutting": {
     "criteria": {
       "has_stone_types_tuff": "2024-11-23 20:26:31 -0600"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/andesite_from_stone_types_andesite_stonecutting": {
-    "criteria": {
-      "has_stone_types_andesite": "2024-11-23 20:32:00 -0600"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_andesite_from_stone_types_andesite_stonecutting": {
-    "criteria": {
-      "has_stone_types_andesite": "2024-11-23 20:32:00 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
-    "criteria": {
-      "has_andesite": "2024-11-23 20:32:00 -0600"
-    },
-    "done": true
-  },
-  "minecraft:story/enchant_item": {
-    "criteria": {
-      "enchanted_item": "2024-11-23 20:50:46 -0600"
     },
     "done": true
   },
@@ -2692,27 +2652,105 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
-    "criteria": {
-      "has_andesite": "2024-11-23 20:32:00 -0600"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/small_tuff_brick_slab_from_stone_types_tuff_stonecutting": {
     "criteria": {
       "has_stone_types_tuff": "2024-11-23 20:26:31 -0600"
     },
     "done": true
   },
-  "create:recipes/building_blocks/polished_cut_andesite_slab_from_stone_types_andesite_stonecutting": {
+  "create:recipes/building_blocks/polished_cut_tuff_wall_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2024-11-23 20:26:31 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_tuff_brick_slab_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2024-11-23 20:26:31 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_tuff_slab_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2024-11-23 20:26:31 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_tuff_brick_wall_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2024-11-23 20:26:31 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_tuff_bricks_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2024-11-23 20:26:31 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_tuff_wall_from_stone_types_tuff_stonecutting": {
+    "criteria": {
+      "has_stone_types_tuff": "2024-11-23 20:26:31 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_andesite_stairs_from_stone_types_andesite_stonecutting": {
     "criteria": {
       "has_stone_types_andesite": "2024-11-23 20:32:00 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+  "create:recipes/building_blocks/cut_andesite_slab_from_stone_types_andesite_stonecutting": {
     "criteria": {
-      "has_raw_gold": "2024-11-23 20:24:33 -0600"
+      "has_stone_types_andesite": "2024-11-23 20:32:00 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_andesite_brick_slab_from_stone_types_andesite_stonecutting": {
+    "criteria": {
+      "has_stone_types_andesite": "2024-11-23 20:32:00 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_stairs": {
+    "criteria": {
+      "has_andesite": "2024-11-23 20:32:00 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2024-11-23 20:32:00 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/andesite_from_stone_types_andesite_stonecutting": {
+    "criteria": {
+      "has_stone_types_andesite": "2024-11-23 20:32:00 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_andesite_from_stone_types_andesite_stonecutting": {
+    "criteria": {
+      "has_stone_types_andesite": "2024-11-23 20:32:00 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2024-11-23 20:32:00 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
+    "criteria": {
+      "has_andesite": "2024-11-23 20:32:00 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_andesite_slab_from_stone_types_andesite_stonecutting": {
+    "criteria": {
+      "has_stone_types_andesite": "2024-11-23 20:32:00 -0600"
     },
     "done": true
   },
@@ -2746,18 +2784,6 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/polished_cut_tuff_wall_from_stone_types_tuff_stonecutting": {
-    "criteria": {
-      "has_stone_types_tuff": "2024-11-23 20:26:31 -0600"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/raw_gold_block": {
-    "criteria": {
-      "has_raw_gold": "2024-11-23 20:24:33 -0600"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/andesite_pillar_from_stone_types_andesite_stonecutting": {
     "criteria": {
       "has_stone_types_andesite": "2024-11-23 20:32:00 -0600"
@@ -2788,33 +2814,15 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/cut_tuff_brick_slab_from_stone_types_tuff_stonecutting": {
-    "criteria": {
-      "has_stone_types_tuff": "2024-11-23 20:26:31 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_andesite": {
     "criteria": {
       "has_andesite": "2024-11-23 20:32:00 -0600"
     },
     "done": true
   },
-  "create:recipes/building_blocks/cut_tuff_slab_from_stone_types_tuff_stonecutting": {
-    "criteria": {
-      "has_stone_types_tuff": "2024-11-23 20:26:31 -0600"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/polished_cut_andesite_from_stone_types_andesite_stonecutting": {
     "criteria": {
       "has_stone_types_andesite": "2024-11-23 20:32:00 -0600"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/small_tuff_brick_wall_from_stone_types_tuff_stonecutting": {
-    "criteria": {
-      "has_stone_types_tuff": "2024-11-23 20:26:31 -0600"
     },
     "done": true
   },
@@ -2854,21 +2862,609 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/cut_tuff_bricks_from_stone_types_tuff_stonecutting": {
-    "criteria": {
-      "has_stone_types_tuff": "2024-11-23 20:26:31 -0600"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/layered_andesite_from_stone_types_andesite_stonecutting": {
     "criteria": {
       "has_stone_types_andesite": "2024-11-23 20:32:00 -0600"
     },
     "done": true
   },
-  "create:recipes/building_blocks/cut_tuff_wall_from_stone_types_tuff_stonecutting": {
+  "minecraft:story/enchant_item": {
     "criteria": {
-      "has_stone_types_tuff": "2024-11-23 20:26:31 -0600"
+      "enchanted_item": "2024-11-23 20:50:46 -0600"
+    },
+    "done": true
+  },
+  "morevillagers:first_village": {
+    "criteria": {
+      "plains": "2024-11-24 17:26:51 -0600"
+    },
+    "done": true
+  },
+  "morevillagers:all_villages": {
+    "criteria": {
+      "plains": "2024-11-24 17:26:51 -0600"
+    },
+    "done": false
+  },
+  "bettermcdonaldsmod:recipes/food/tortilla": {
+    "criteria": {
+      "has_wheat": "2024-11-24 17:54:00 -0600"
+    },
+    "done": true
+  },
+  "morevillagers:recipes/woodworking_table": {
+    "criteria": {
+      "has_leaves": "2024-11-24 18:20:51 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/mayonnaise": {
+    "criteria": {
+      "has_egg": "2024-11-24 18:49:06 -0600"
+    },
+    "done": true
+  },
+  "assortedtools:recipes/combat/emerald_chestplate": {
+    "criteria": {
+      "has_item": "2024-11-24 19:08:47 -0600"
+    },
+    "done": true
+  },
+  "assortedtools:recipes/tools/emerald_axe": {
+    "criteria": {
+      "has_item": "2024-11-24 19:08:47 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2024-11-24 19:08:47 -0600"
+    },
+    "done": true
+  },
+  "assortedtools:recipes/combat/emerald_leggings": {
+    "criteria": {
+      "has_item": "2024-11-24 19:08:47 -0600"
+    },
+    "done": true
+  },
+  "assortedtools:recipes/tools/emerald_multitool": {
+    "criteria": {
+      "has_item": "2024-11-24 19:08:47 -0600"
+    },
+    "done": true
+  },
+  "assortedtools:recipes/tools/emerald_pickaxe": {
+    "criteria": {
+      "has_item": "2024-11-24 19:08:47 -0600"
+    },
+    "done": true
+  },
+  "assortedtools:recipes/tools/emerald_axe_alt": {
+    "criteria": {
+      "has_item": "2024-11-24 19:08:47 -0600"
+    },
+    "done": true
+  },
+  "assortedtools:recipes/tools/emerald_hoe_alt": {
+    "criteria": {
+      "has_item": "2024-11-24 19:08:47 -0600"
+    },
+    "done": true
+  },
+  "assortedtools:recipes/tools/emerald_hammer": {
+    "criteria": {
+      "has_item": "2024-11-24 19:08:47 -0600"
+    },
+    "done": true
+  },
+  "assortedtools:recipes/combat/emerald_spear": {
+    "criteria": {
+      "has_item": "2024-11-24 19:08:47 -0600"
+    },
+    "done": true
+  },
+  "assortedtools:recipes/tools/emerald_shovel": {
+    "criteria": {
+      "has_item": "2024-11-24 19:08:47 -0600"
+    },
+    "done": true
+  },
+  "assortedtools:recipes/combat/emerald_spear_alt": {
+    "criteria": {
+      "has_item": "2024-11-24 19:08:47 -0600"
+    },
+    "done": true
+  },
+  "assortedtools:recipes/combat/emerald_boots": {
+    "criteria": {
+      "has_item": "2024-11-24 19:08:47 -0600"
+    },
+    "done": true
+  },
+  "assortedtools:recipes/combat/emerald_helmet": {
+    "criteria": {
+      "has_item": "2024-11-24 19:08:47 -0600"
+    },
+    "done": true
+  },
+  "assortedtools:recipes/combat/emerald_sword": {
+    "criteria": {
+      "has_item": "2024-11-24 19:08:47 -0600"
+    },
+    "done": true
+  },
+  "assortedtools:recipes/tools/emerald_bucket": {
+    "criteria": {
+      "has_item": "2024-11-24 19:08:47 -0600"
+    },
+    "done": true
+  },
+  "assortedtools:recipes/tools/emerald_hoe": {
+    "criteria": {
+      "has_item": "2024-11-24 19:08:47 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2024-11-24 19:41:53 -0600"
+    },
+    "done": true
+  },
+  "assortedtools:recipes/tools/diamond_hammer": {
+    "criteria": {
+      "has_item": "2024-11-24 19:56:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2024-11-24 19:56:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2024-11-24 19:56:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2024-11-24 19:56:31 -0600"
+    },
+    "done": true
+  },
+  "assortedtools:recipes/tools/diamond_boomerang": {
+    "criteria": {
+      "has_diamonds": "2024-11-24 19:56:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2024-11-24 19:56:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2024-11-24 19:56:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2024-11-24 19:56:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2024-11-24 19:56:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2024-11-24 19:56:31 -0600"
+    },
+    "done": true
+  },
+  "assortedtools:recipes/tools/diamond_bucket": {
+    "criteria": {
+      "has_item": "2024-11-24 19:56:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2024-11-24 19:56:31 -0600"
+    },
+    "done": true
+  },
+  "assortedtools:recipes/combat/diamond_spear_alt": {
+    "criteria": {
+      "has_item": "2024-11-24 19:56:31 -0600"
+    },
+    "done": true
+  },
+  "assortedtools:recipes/tools/diamond_multitool": {
+    "criteria": {
+      "has_item": "2024-11-24 19:56:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2024-11-24 19:56:31 -0600"
+    },
+    "done": true
+  },
+  "assortedtools:recipes/tools/mining_wand": {
+    "criteria": {
+      "has_diamond": "2024-11-24 19:56:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2024-11-24 19:56:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2024-11-24 19:56:31 -0600"
+    },
+    "done": true
+  },
+  "assortedtools:recipes/combat/diamond_spear": {
+    "criteria": {
+      "has_item": "2024-11-24 19:56:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2024-11-24 20:06:12 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2024-11-24 20:06:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2024-11-24 20:06:29 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/pulse_extender": {
+    "criteria": {
+      "has_item": "2024-11-24 20:06:29 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/pulse_repeater": {
+    "criteria": {
+      "has_item": "2024-11-24 20:06:29 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/powered_latch": {
+    "criteria": {
+      "has_item": "2024-11-24 20:06:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2024-11-24 20:06:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2024-11-24 20:06:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2024-11-24 20:06:29 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/powered_toggle_latch": {
+    "criteria": {
+      "has_item": "2024-11-24 20:06:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2024-11-24 20:06:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2024-11-24 20:06:29 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/rose_quartz": {
+    "criteria": {
+      "has_item": "2024-11-24 20:06:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2024-11-24 20:06:29 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2024-11-24 20:13:46 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2024-11-24 21:54:52 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2024-11-24 21:54:52 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2024-11-24 22:13:17 -0600"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_pink": {
+    "criteria": {
+      "has_pink_wool": "2024-11-25 00:24:50 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/yellow_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2024-11-25 00:21:12 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2024-11-25 00:02:57 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/blue_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2024-11-25 00:21:12 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_bed": {
+    "criteria": {
+      "has_purple_wool": "2024-11-25 00:19:36 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/pink_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2024-11-25 00:21:12 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/ketchup": {
+    "criteria": {
+      "has_water_bucket": "2024-11-24 23:22:54 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/green_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2024-11-25 00:21:12 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/white_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2024-11-25 00:21:12 -0600"
+    },
+    "done": true
+  },
+  "morevillagers:all_workstations_get": {
+    "criteria": {
+      "cauldron": "2024-11-25 00:14:48 -0600"
+    },
+    "done": false
+  },
+  "bettermcdonaldsmod:recipes/food/sprite": {
+    "criteria": {
+      "has_water_bucket": "2024-11-24 23:22:54 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_flint": "2024-11-25 00:02:57 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/cyan_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2024-11-25 00:21:12 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/black_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2024-11-25 00:21:12 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_carpet": {
+    "criteria": {
+      "has_purple_wool": "2024-11-25 00:19:36 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/lime_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2024-11-25 00:21:12 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/purple_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2024-11-25 00:21:12 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_banner": {
+    "criteria": {
+      "has_purple_wool": "2024-11-25 00:19:36 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/mustard": {
+    "criteria": {
+      "has_water_bucket": "2024-11-24 23:22:54 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/coca_cola": {
+    "criteria": {
+      "has_water_bucket": "2024-11-24 23:22:54 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/light_blue_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2024-11-25 00:21:12 -0600"
+    },
+    "done": true
+  },
+  "comforts:hammock_purple": {
+    "criteria": {
+      "has_purple_wool": "2024-11-25 00:19:36 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/red_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2024-11-25 00:21:12 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/orange_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2024-11-25 00:21:12 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2024-11-25 00:02:57 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_bed": {
+    "criteria": {
+      "has_pink_wool": "2024-11-25 00:24:50 -0600"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_purple": {
+    "criteria": {
+      "has_purple_wool": "2024-11-25 00:19:36 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/magenta_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2024-11-25 00:21:12 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/light_gray_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2024-11-25 00:21:12 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2024-11-24 23:22:54 -0600"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/gold_backpack": {
+    "criteria": {
+      "has_iron_backpack": "2024-11-25 00:19:31 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/brown_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2024-11-25 00:21:12 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/sweet_sour_sauce": {
+    "criteria": {
+      "has_water_bucket": "2024-11-24 23:22:54 -0600"
+    },
+    "done": true
+  },
+  "comforts:hammock_pink": {
+    "criteria": {
+      "has_pink_wool": "2024-11-25 00:24:50 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_carpet": {
+    "criteria": {
+      "has_pink_wool": "2024-11-25 00:24:50 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_banner": {
+    "criteria": {
+      "has_pink_wool": "2024-11-25 00:24:50 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/fanta": {
+    "criteria": {
+      "has_water_bucket": "2024-11-24 23:22:54 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/crafting/kinetics/gray_seat_from_other_seat": {
+    "criteria": {
+      "has_seat": "2024-11-25 00:21:12 -0600"
+    },
+    "done": true
+  },
+  "morevillagers:first_workstation_get": {
+    "criteria": {
+      "cauldron": "2024-11-25 00:14:48 -0600"
     },
     "done": true
   },
