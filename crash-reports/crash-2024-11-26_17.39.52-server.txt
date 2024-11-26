@@ -1,0 +1,62 @@
+---- Minecraft Crash Report ----
+// Don't be sad, have a hug! <3
+
+Time: 2024-11-26 17:39:52
+Description: Exception in server tick loop
+
+com.google.gson.JsonSyntaxException: Expected a com.google.gson.JsonArray but was com.google.gson.JsonPrimitive; at path $
+	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1010)
+	at com.google.gson.Gson.fromJson(Gson.java:1214)
+	at com.google.gson.Gson.fromJson(Gson.java:1124)
+	at com.google.gson.Gson.fromJson(Gson.java:1062)
+	at alp.f(SourceFile:118)
+	at ahd.z(SourceFile:85)
+	at ahd.<init>(SourceFile:24)
+	at ahe.e(SourceFile:161)
+	at net.minecraft.server.MinecraftServer.w(SourceFile:646)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:265)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 23.0.1, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 198683216 bytes (189 MiB) / 398458880 bytes (380 MiB) up to 4276092928 bytes (4078 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 2600 Six-Core Processor            
+	Identifier: AuthenticAMD Family 23 Model 8 Stepping 2
+	Microarchitecture: Zen+
+	Frequency (GHz): 3.39
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: AMD Radeon RX 580 2048SP
+	Graphics card #0 vendor: Advanced Micro Devices, Inc. (0x1002)
+	Graphics card #0 VRAM (MB): 4095.00
+	Graphics card #0 deviceId: 0x6fdf
+	Graphics card #0 versionInfo: DriverVersion=31.0.21916.2
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 35762.72
+	Virtual memory used (MB): 9593.80
+	Swap memory total (MB): 19456.00
+	Swap memory used (MB): 4.24
+	JVM Flags: 0 total; 
+	Server Running: true
+	Data Packs: vanilla
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	Is Modded: Probably not. Server jar signature and brand is untouched
+	Type: Dedicated Server (map_server.txt)

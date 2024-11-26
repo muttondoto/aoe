@@ -15,24 +15,47 @@
     "criteria": {
       "minecraft:snowy_slopes": "2024-11-25 00:35:41 -0600",
       "minecraft:old_growth_pine_taiga": "2024-11-18 15:08:35 -0600",
+      "minecraft:mushroom_fields": "2024-11-26 00:03:58 -0600",
       "minecraft:taiga": "2024-11-18 13:35:25 -0600",
+      "minecraft:deep_ocean": "2024-11-26 00:19:21 -0600",
+      "minecraft:eroded_badlands": "2024-11-26 01:00:38 -0600",
+      "minecraft:frozen_river": "2024-11-25 15:47:33 -0600",
       "minecraft:cherry_grove": "2024-11-18 17:00:24 -0600",
+      "minecraft:sunflower_plains": "2024-11-26 01:18:25 -0600",
       "minecraft:birch_forest": "2024-11-18 13:36:03 -0600",
+      "minecraft:windswept_hills": "2024-11-26 01:30:13 -0600",
+      "minecraft:bamboo_jungle": "2024-11-25 16:17:34 -0600",
+      "minecraft:wooded_badlands": "2024-11-26 00:58:58 -0600",
+      "minecraft:badlands": "2024-11-26 00:58:53 -0600",
+      "minecraft:savanna_plateau": "2024-11-25 16:25:07 -0600",
       "minecraft:beach": "2024-11-18 14:13:06 -0600",
       "minecraft:dark_forest": "2024-11-18 13:19:22 -0600",
+      "minecraft:stony_peaks": "2024-11-26 00:32:13 -0600",
       "minecraft:sparse_jungle": "2024-11-23 21:42:24 -0600",
       "minecraft:river": "2024-11-18 13:39:07 -0600",
       "minecraft:lukewarm_ocean": "2024-11-22 14:46:32 -0600",
       "minecraft:stony_shore": "2024-11-18 14:40:49 -0600",
+      "minecraft:snowy_plains": "2024-11-25 15:46:43 -0600",
       "minecraft:dripstone_caves": "2024-11-19 22:46:32 -0600",
+      "minecraft:snowy_taiga": "2024-11-25 15:38:34 -0600",
       "minecraft:grove": "2024-11-18 13:27:10 -0600",
+      "minecraft:swamp": "2024-11-26 01:30:34 -0600",
       "minecraft:jagged_peaks": "2024-11-22 14:39:36 -0600",
       "minecraft:cold_ocean": "2024-11-18 14:16:00 -0600",
       "minecraft:forest": "2024-11-18 13:38:50 -0600",
       "minecraft:lush_caves": "2024-11-24 17:23:53 -0600",
+      "minecraft:deep_cold_ocean": "2024-11-25 15:26:52 -0600",
+      "minecraft:ice_spikes": "2024-11-25 15:58:10 -0600",
+      "minecraft:frozen_ocean": "2024-11-25 15:38:44 -0600",
+      "minecraft:desert": "2024-11-25 17:33:41 -0600",
+      "minecraft:deep_frozen_ocean": "2024-11-25 19:08:21 -0600",
+      "minecraft:windswept_forest": "2024-11-26 02:00:41 -0600",
       "minecraft:ocean": "2024-11-18 14:16:05 -0600",
       "minecraft:jungle": "2024-11-23 21:42:34 -0600",
       "minecraft:old_growth_spruce_taiga": "2024-11-18 15:10:56 -0600",
+      "minecraft:snowy_beach": "2024-11-25 15:40:18 -0600",
+      "minecraft:windswept_savanna": "2024-11-26 01:32:23 -0600",
+      "minecraft:warm_ocean": "2024-11-25 17:33:38 -0600",
       "minecraft:deep_lukewarm_ocean": "2024-11-25 00:24:09 -0600",
       "minecraft:flower_forest": "2024-11-18 16:06:02 -0600",
       "minecraft:frozen_peaks": "2024-11-18 15:07:01 -0600",
@@ -411,7 +434,8 @@
       "minecraft:enderman": "2024-11-18 23:59:09 -0600",
       "minecraft:vex": "2024-11-24 16:27:05 -0600",
       "minecraft:zombie": "2024-11-18 13:31:14 -0600",
-      "minecraft:drowned": "2024-11-21 05:16:28 -0600"
+      "minecraft:drowned": "2024-11-21 05:16:28 -0600",
+      "minecraft:zombie_villager": "2024-11-25 17:04:32 -0600"
     },
     "done": false
   },
@@ -5396,9 +5420,11 @@
   "morevillagers:all_workstations_get": {
     "criteria": {
       "barrel": "2024-11-23 18:01:44 -0600",
+      "cartographytable": "2024-11-25 16:08:02 -0600",
       "fletchingtable": "2024-11-20 22:53:57 -0600",
       "brewingstand": "2024-11-20 22:52:27 -0600",
       "grindstone": "2024-11-20 23:25:05 -0600",
+      "gardeningtable": "2024-11-25 16:46:26 -0600",
       "smoker": "2024-11-20 23:23:04 -0600",
       "smithingtable": "2024-11-23 01:44:40 -0600",
       "blastfurnace": "2024-11-20 23:25:09 -0600",
@@ -5730,9 +5756,13 @@
   },
   "morevillagers:all_villages": {
     "criteria": {
-      "plains": "2024-11-20 22:53:45 -0600"
+      "taiga": "2024-11-25 16:07:42 -0600",
+      "plains": "2024-11-20 22:53:45 -0600",
+      "savanna": "2024-11-25 18:45:01 -0600",
+      "desert": "2024-11-25 17:40:35 -0600",
+      "snowy": "2024-11-25 19:01:30 -0600"
     },
-    "done": false
+    "done": true
   },
   "morevillagers:recipes/hunting_post": {
     "criteria": {
@@ -7226,6 +7256,7 @@
     "criteria": {
       "armor_trimmed_minecraft:spire_armor_trim_smithing_template_smithing_trim": "2024-11-23 20:38:04 -0600",
       "armor_trimmed_minecraft:vex_armor_trim_smithing_template_smithing_trim": "2024-11-24 17:12:45 -0600",
+      "armor_trimmed_minecraft:ward_armor_trim_smithing_template_smithing_trim": "2024-11-26 02:27:43 -0600",
       "armor_trimmed_minecraft:snout_armor_trim_smithing_template_smithing_trim": "2024-11-23 20:18:54 -0600"
     },
     "done": false
@@ -8106,6 +8137,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2024-11-24 23:24:34 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/beacon": {
     "criteria": {
       "has_nether_star": "2024-11-24 23:25:52 -0600"
@@ -8124,9 +8161,405 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/mojang_banner_pattern": {
+  "bettermcdonaldsmod:recipes/food/ketchup": {
     "criteria": {
-      "has_enchanted_golden_apple": "2024-11-24 23:24:34 -0600"
+      "has_sugar": "2024-11-25 14:41:32 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/sprite": {
+    "criteria": {
+      "has_sugar": "2024-11-25 14:41:32 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/coca_cola": {
+    "criteria": {
+      "has_sugar": "2024-11-25 14:41:32 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/lipton_ice_tea_peach": {
+    "criteria": {
+      "has_sugar": "2024-11-25 14:41:32 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/sweet_sour_sauce": {
+    "criteria": {
+      "has_sugar": "2024-11-25 14:41:32 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/fanta": {
+    "criteria": {
+      "has_sugar": "2024-11-25 14:41:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/honey_bottle": {
+    "criteria": {
+      "has_honey_block": "2024-11-25 14:49:21 -0600"
+    },
+    "done": true
+  },
+  "bettermcdonaldsmod:recipes/food/raw_bacon": {
+    "criteria": {
+      "has_porkchop": "2024-11-25 15:50:30 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2024-11-25 15:51:15 -0600"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/kangaroo": {
+    "criteria": {
+      "killed_by": "2024-11-25 16:25:47 -0600"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/emu": {
+    "criteria": {
+      "killed_by": "2024-11-25 16:26:36 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_ochrum_bricks_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2024-11-25 16:30:56 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_ochrum_brick_stairs_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2024-11-25 16:30:56 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_ochrum_wall_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2024-11-25 16:30:56 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_ochrum_brick_slab_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2024-11-25 16:30:56 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_ochrum_stairs_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2024-11-25 16:30:56 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/ochrum_pillar_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2024-11-25 16:30:56 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/layered_ochrum_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2024-11-25 16:30:56 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_ochrum_stairs_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2024-11-25 16:30:56 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/ochrum_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2024-11-25 16:30:56 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_ochrum_slab_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2024-11-25 16:30:56 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_ochrum_slab_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2024-11-25 16:30:56 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_ochrum_brick_slab_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2024-11-25 16:30:56 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_ochrum_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2024-11-25 16:30:56 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_ochrum_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2024-11-25 16:30:56 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_ochrum_bricks_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2024-11-25 16:30:56 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_ochrum_brick_wall_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2024-11-25 16:30:56 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_ochrum_brick_stairs_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2024-11-25 16:30:56 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_ochrum_wall_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2024-11-25 16:30:56 -0600"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_ochrum_brick_wall_from_stone_types_ochrum_stonecutting": {
+    "criteria": {
+      "has_stone_types_ochrum": "2024-11-25 16:30:56 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dried_kelp_block": {
+    "criteria": {
+      "has_dried_kelp": "2024-11-25 16:48:25 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sentry_armor_trim_smithing_template": {
+    "criteria": {
+      "has_sentry_armor_trim_smithing_template": "2024-11-25 17:15:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sentry_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-11-25 17:15:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate_slab": "2024-11-25 17:20:42 -0600"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/tarantula_hawk": {
+    "criteria": {
+      "killed_by": "2024-11-25 17:37:53 -0600"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/rattlesnake": {
+    "criteria": {
+      "killed": "2024-11-25 17:45:15 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye_from_smelting": {
+    "criteria": {
+      "has_sea_pickle": "2024-11-25 18:32:23 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2024-11-25 19:06:26 -0600"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/skelewag": {
+    "criteria": {
+      "killed_by": "2024-11-25 19:17:28 -0600"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/skelewag_skull": {
+    "criteria": {
+      "skull": "2024-11-25 19:17:35 -0600"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/fish_bones": {
+    "criteria": {
+      "sopa_de_macaco": "2024-11-25 19:17:36 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_core": "2024-11-25 19:30:25 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2024-11-25 19:43:59 -0600"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/orcas_might": {
+    "criteria": {
+      "all_effects": "2024-11-25 19:44:05 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-11-26 02:44:12 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-11-26 02:44:12 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-11-26 02:44:12 -0600"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/sunbird_blessing": {
+    "criteria": {
+      "all_effects": "2024-11-26 00:35:22 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-11-26 02:44:12 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-11-26 02:44:12 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-11-26 02:44:12 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-11-26 02:44:12 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-11-26 02:44:12 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-11-26 02:44:12 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-11-26 01:28:10 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-11-26 02:44:12 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/terracotta": {
+    "criteria": {
+      "has_clay_block": "2024-11-26 02:40:00 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-11-26 02:44:12 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2024-11-26 01:28:10 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2024-11-26 02:33:46 -0600"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/froststalker_helmet": {
+    "criteria": {
+      "froststalker_helmet": "2024-11-26 02:42:56 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-11-26 02:44:12 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-11-26 02:44:12 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_glazed_terracotta": {
+    "criteria": {
+      "has_black_terracotta": "2024-11-26 02:44:31 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-11-26 02:44:12 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-11-26 02:44:12 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-11-26 02:44:12 -0600"
     },
     "done": true
   },
